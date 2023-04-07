@@ -14,6 +14,6 @@ The objective of this assignment is for you to learn about:
 
 ## Submitting the Assignment
 
-Submit your assignment by running `python3 -m cse40.submit` from your local repository directory.
+Submit your assignment by running `python3 -m cse40.autograder submit` from your local repository directory.
 This script will check for your cruzid, password, and assignment id in `config.json`
 and submit your work to a server controlled by the TAs where tests will be run, reporting the results back to you.
