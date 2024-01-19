@@ -125,7 +125,7 @@ class T1B(autograder.question.Question):
     def score_question(self, submission, synthetic_data):
         ndarray_to_dict = submission.__all__.ndarray_to_dict
 
-        result = ndarray_to_dict(numpy.array(['1', '2']))
+        result = ndarray_to_dict(numpy.array([['1', '2'], ['3', '4']]))
         self.check_not_implemented(result)
 
         if (not isinstance(result, dict)):
